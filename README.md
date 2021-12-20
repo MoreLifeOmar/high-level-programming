@@ -1,6 +1,6 @@
 ## Description
 
-This is the first project for the second trimester of foundations section at Holberton School, it inmmerse us in the worl of Python with some Shell scripting.
+This is the first project for the second trimester of foundations section at Holberton School, it inmmerse us in the world of Python with some Shell scripting.
 
 ## Learning Objetives
 
