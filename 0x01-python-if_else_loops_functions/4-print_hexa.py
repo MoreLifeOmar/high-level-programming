@@ -1,4 +1,3 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 for i in range (99):
-    if i < 99:
-        print(i, '=', hex(i))
+    print("{:d} = 0x{:x}".format(i, i))
