@@ -2,5 +2,5 @@
 def islower(c):
     if (ord('c') == 97):
         return True
-    else:
+    elif (ord('\u2020') == 8224):
         return False
