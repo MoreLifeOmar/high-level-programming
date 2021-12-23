@@ -2,6 +2,14 @@
 
 This is the first project for the second trimester of foundations section at Holberton School, it inmmerse us in the world of Python with some Shell scripting.
 
+---
+
+<p align="center">
+<a target="_blank" href="https://www.holbertonschool.com/"><img src="https://github.com/dreamdaddybanks/holbertonschool-low_level_programming/blob/master/holby.jpg?raw=true"></a>
+</p>
+
+---
+
 ## Learning Objetives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
