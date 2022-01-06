@@ -28,10 +28,10 @@ Write a function that computes the square value of all integers of a matrix.
 	* You are not allowed to import any module
 	* You are allowed to use regular loops, `map`, etc.
 
-	**Solution:** [0-square_matrix_simple.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/0-square_matrix_simple.py)
+	**Solution:** [0-square_matrix_simple.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/0-square_matrix_simple.py)
 
 	```
-	$ amonkeyprogrammer@ubuntu:~/0x04$ cat 0-main.py
+	$ dreamdaddybanks@ubuntu:~/0x04$ cat 0-main.py
 	#!/usr/bin/python3
 	square_matrix_simple = __import__('0-square_matrix_simple').square_matrix_simple
 
@@ -45,10 +45,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    print(new_matrix)
 		    print(matrix)
 
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./0-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ ./0-main.py
 		    [[1, 4, 9], [16, 25, 36], [49, 64, 81]]
 		    [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ 
+		    $ dreamdaddybanks@ubuntu:~/0x04$ 
 		    ```
 
 		    ## Search and replace
@@ -61,10 +61,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    * `replace` is the new element
 		    * You are not allowed to import any module
 
-		    **Solution:** [1-search_replace.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/1-search_replace.py)
+		    **Solution:** [1-search_replace.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/1-search_replace.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 1-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 1-main.py
 		    #!/usr/bin/python3
 		    search_replace = __import__('1-search_replace').search_replace
 
@@ -74,10 +74,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    print(new_list)
 		    print(my_list)
 
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./1-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ ./1-main.py
 		    [1, 89, 3, 4, 5, 4, 89, 1, 1, 4, 89]
 		    [1, 2, 3, 4, 5, 4, 2, 1, 1, 4, 89]
-		    $ amonkeyprogrammer@ubuntu:~/0x04$
+		    $ dreamdaddybanks@ubuntu:~/0x04$
 		    ```
 
 		    ## Unique addition
@@ -87,10 +87,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    * Prototype: `def uniq_add(my_list=[]):`
 		    * You are not allowed to import any module
 
-		    **Solution:** [2-uniq_add.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/2-uniq_add.py)
+		    **Solution:** [2-uniq_add.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/2-uniq_add.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 2-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 2-main.py
 		    #!/usr/bin/python3
 		    uniq_add = __import__('2-uniq_add').uniq_add
 
@@ -98,9 +98,9 @@ Write a function that computes the square value of all integers of a matrix.
 		    result = uniq_add(my_list)
 		    print("Result: {:d}".format(result))
 
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./2-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ ./2-main.py
 		    Result: 15
-		    $ amonkeyprogrammer@ubuntu:~/0x04$
+		    $ dreamdaddybanks@ubuntu:~/0x04$
 		    ```
 
 		    ## Present in both
@@ -110,10 +110,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    * Prototype: `def common_elements(set_1, set_2):`
 		    * You are not allowed to import any module
 
-		    **Solution:** [3-common_elements.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/3-common_elements.py)
+		    **Solution:** [3-common_elements.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/3-common_elements.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 3-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 3-main.py
 		    #!/usr/bin/python3
 		    common_elements = __import__('3-common_elements').common_elements
 
@@ -122,9 +122,9 @@ Write a function that computes the square value of all integers of a matrix.
 		    c_set = common_elements(set_1, set_2)
 		    print(sorted(list(c_set)))
 
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./3-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ ./3-main.py
 		    ['C']
-		    $ amonkeyprogrammer@ubuntu:~/0x04$
+		    $ dreamdaddybanks@ubuntu:~/0x04$
 		    ```
 
 		    ## Only differents
@@ -134,10 +134,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    * Prototype: `def only_diff_elements(set_1, set_2):`
 		    * You are not allowed to import any module
 
-		    **Solution:** [4-only_diff_elements.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/4-only_diff_elements.py)
+		    **Solution:** [4-only_diff_elements.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/4-only_diff_elements.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 4-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 4-main.py
 		    #!/usr/bin/python3
 		    only_diff_elements = __import__('4-only_diff_elements').only_diff_elements
 
@@ -148,7 +148,7 @@ Write a function that computes the square value of all integers of a matrix.
 
 		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./4-main.py
 		    ['Bash', 'Javascript', 'Perl', 'Python', 'Ruby']
-		    $ amonkeyprogrammer@ubuntu:~/0x04$
+		    $ dreamdaddybanks@ubuntu:~/0x04$
 		    ```
 
 		    ## Number of keys
@@ -158,10 +158,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    * Prototype: `def number_keys(a_dictionary):`
 		    * You are not allowed to import any module
 
-		    **Solution:** [5-number_keys.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/5-number_keys.py)
+		    **Solution:** [5-number_keys.py](https://github.com/dreamdaddybanksholbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/5-number_keys.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 5-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 5-main.py
 		    #!/usr/bin/python3
 		    number_keys = __import__('5-number_keys').number_keys
 
@@ -169,9 +169,9 @@ Write a function that computes the square value of all integers of a matrix.
 		    nb_keys = number_keys(a_dictionary)
 		    print("Number of keys: {:d}".format(nb_keys))
 
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./5-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ ./5-main.py
 		    Number of keys: 3
-		    $ amonkeyprogrammer@ubuntu:~/0x04$
+		    $ dreamdaddybanks@ubuntu:~/0x04$
 		    ```
 
 		    ## Print sorted dictionary
@@ -185,22 +185,22 @@ Write a function that computes the square value of all integers of a matrix.
 		    * Dictionary values can have any type
 		    * You are not allowed to import any module
 
-		    **Solution:** [6-print_sorted_dictionary.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/6-print_sorted_dictionary.py)
+		    **Solution:** [6-print_sorted_dictionary.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/6-print_sorted_dictionary.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 6-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 6-main.py
 		    #!/usr/bin/python3
 		    print_sorted_dictionary = __import__('6-print_sorted_dictionary').print_sorted_dictionary
 
 		    a_dictionary = { 'language': "C", 'Number': 89, 'track': "Low level", 'ids': [1, 2, 3] }
 		    print_sorted_dictionary(a_dictionary)
 
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./6-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ ./6-main.py
 		    Number: 89
 		    ids: [1, 2, 3]
 		    language: C
 		    track: Low level
-		    $ amonkeyprogrammer@ubuntu:~/0x04$
+		    $ dreamdaddybanks@ubuntu:~/0x04$
 		    ```
 
 		    ## Update dictionary
@@ -214,10 +214,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    * If a key doesn’t exist in the dictionary, it will be created
 		    * You are not allowed to import any module
 
-		    **Solution:** [7-update_dictionary.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/7-update_dictionary.py)
+		    **Solution:** [7-update_dictionary.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/7-update_dictionary.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 7-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 7-main.py
 		    #!/usr/bin/python3
 		    update_dictionary = __import__('7-update_dictionary').update_dictionary
 		    print_sorted_dictionary = __import__('6-print_sorted_dictionary').print_sorted_dictionary
@@ -236,7 +236,7 @@ Write a function that computes the square value of all integers of a matrix.
 		    print("--")
 		    print_sorted_dictionary(a_dictionary)
 
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ ./7-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ ./7-main.py
 		    language: Python
 		    number: 89
 		    track: Low level
@@ -255,7 +255,7 @@ Write a function that computes the square value of all integers of a matrix.
 		    language: Python
 		    number: 89
 		    track: Low level
-		    $ amonkeyprogrammer@ubuntu:~/0x04$
+		    $ dreamdaddybanks@ubuntu:~/0x04$
 		    ```
 
 		    ## Simple delete by key
@@ -267,10 +267,10 @@ Write a function that computes the square value of all integers of a matrix.
 		    * If a key doesn’t exist, the dictionary won’t change
 		    * You are not allowed to import any module
 
-		    **Solution:** [8-simple_delete.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/8-simple_delete.py)
+		    **Solution:** [8-simple_delete.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/8-simple_delete.py)
 
 		    ```
-		    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 8-main.py
+		    $ dreamdaddybanks@ubuntu:~/0x04$ cat 8-main.py
 		    #!/usr/bin/python3
 		    simple_delete = __import__('8-simple_delete').simple_delete
 		    print_sorted_dictionary = \
@@ -289,7 +289,7 @@ Write a function that computes the square value of all integers of a matrix.
 			print("--")
 			print_sorted_dictionary(new_dict)
 
-			$ amonkeyprogrammer@ubuntu:~/0x04$ ./8-main.py
+			$ dreamdaddybanks@ubuntu:~/0x04$ ./8-main.py
 			Number: 89
 			ids: [1, 2, 3]
 			language: C
@@ -306,7 +306,7 @@ Write a function that computes the square value of all integers of a matrix.
 			Number: 89
 			ids: [1, 2, 3]
 			language: C
-			$ amonkeyprogrammer@ubuntu:~/0x04$
+			$ dreamdaddybanks@ubuntu:~/0x04$
 			```
 
 			## Multiply by 2
@@ -318,10 +318,10 @@ Write a function that computes the square value of all integers of a matrix.
 			* Returns a new dictionary
 			* You are not allowed to import any module
 
-			**Solution:** [9-multiply_by_2.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/9-multiply_by_2.py)
+			**Solution:** [9-multiply_by_2.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/9-multiply_by_2.py)
 
 			```
-			$ amonkeyprogrammer@ubuntu:~/0x04$ cat 9-main.py
+			$ dreamdaddybanks@ubuntu:~/0x04$ cat 9-main.py
 			#!/usr/bin/python3
 			multiply_by_2 = __import__('9-multiply_by_2').multiply_by_2
 			print_sorted_dictionary = \
@@ -333,7 +333,7 @@ Write a function that computes the square value of all integers of a matrix.
 			    print("--")
 			    print_sorted_dictionary(new_dict)
 
-			    $ amonkeyprogrammer@ubuntu:~/0x04$ ./9-main.py
+			    $ dreamdaddybanks@ubuntu:~/0x04$ ./9-main.py
 			    Alex: 8
 			    Bob: 14
 			    John: 12
@@ -345,7 +345,7 @@ Write a function that computes the square value of all integers of a matrix.
 			    John: 24
 			    Mike: 28
 			    Molly: 32
-			    $ amonkeyprogrammer@ubuntu:~/0x04$
+			    $ dreamdaddybanks@ubuntu:~/0x04$
 			    ```
 
 			    ## Best score
@@ -358,10 +358,10 @@ Write a function that computes the square value of all integers of a matrix.
 			    * You can assume all students have a different score
 			    * You are not allowed to import any module
 
-			    **Solution:** [10-best_score.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/10-best_score.py)
+			    **Solution:** [10-best_score.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/10-best_score.py)
 
 			    ```
-			    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 10-main.py
+			    $ dreamdaddybanks@ubuntu:~/0x04$ cat 10-main.py
 			    #!/usr/bin/python3
 			    best_score = __import__('10-best_score').best_score
 
@@ -372,10 +372,10 @@ Write a function that computes the square value of all integers of a matrix.
 			    best_key = best_score(None)
 			    print("Best score: {}".format(best_key))
 
-			    $ amonkeyprogrammer@ubuntu:~/0x04$ ./10-main.py
+			    $ dreamdaddybanks@ubuntu:~/0x04$ ./10-main.py
 			    Best score: Molly
 			    Best score: None
-			    $ amonkeyprogrammer@ubuntu:~/0x04$
+			    $ dreamdaddybanks@ubuntu:~/0x04$
 			    ```
 
 			    ## Multiply by using map
@@ -391,10 +391,10 @@ Write a function that computes the square value of all integers of a matrix.
 				    * You have to use `map`
 				    * Your file should be max 3 lines
 
-				    **Solution:** [11-multiply_list_map.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/11-mutiply_list_map.py)
+				    **Solution:** [11-multiply_list_map.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/11-mutiply_list_map.py)
 
 				    ```
-				    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 11-main.py
+				    $ dreamdaddybanks@ubuntu:~/0x04$ cat 11-main.py
 				    #!/usr/bin/python3
 				    multiply_list_map = __import__('11-multiply_list_map').multiply_list_map
 
@@ -403,10 +403,10 @@ Write a function that computes the square value of all integers of a matrix.
 				    print(new_list)
 				    print(my_list)
 
-				    $ amonkeyprogrammer@ubuntu:~/0x04$ ./11-main.py
+				    $ dreamdaddybanks@ubuntu:~/0x04$ ./11-main.py
 				    [4, 8, 12, 16, 24]
 				    [1, 2, 3, 4, 6]
-				    $ amonkeyprogrammer@ubuntu:~/0x04$
+				    $ dreamdaddybanks@ubuntu:~/0x04$
 				    ```
 
 				    ## Roman to Integer
@@ -417,10 +417,10 @@ Write a function that computes the square value of all integers of a matrix.
 				    * `def roman_to_int(roman_string)` must return an integer
 				    * If the `roman_string` is not a string or `None`, return 0
 
-				    **Solution:** [12-roman_to_int.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/12-roman_to_int.py)
+				    **Solution:** [12-roman_to_int.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/12-roman_to_int.py)
 
 				    ```
-				    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 12-main.py
+				    $ dreamdaddybanks@ubuntu:~/0x04$ cat 12-main.py
 				    #!/usr/bin/python3
 				    """ Roman to Integer test file
 				    """
@@ -441,13 +441,13 @@ Write a function that computes the square value of all integers of a matrix.
 				    roman_number = "DCCVII"
 				    print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
-				    $ amonkeyprogrammer@ubuntu:~/0x04$ ./12-main.py
+				    $ dreamdaddybanks@ubuntu:~/0x04$ ./12-main.py
 				    X = 10
 				    VII = 7
 				    IX = 9
 				    LXXXVII = 87
 				    DCCVII = 707
-				    $ amonkeyprogrammer@ubuntu:~/0x04$
+				    $ dreamdaddybanks@ubuntu:~/0x04$
 				    ```
 
 				    ## Weighted average!
@@ -458,10 +458,10 @@ Write a function that computes the square value of all integers of a matrix.
 				    * Returns `0` if the list is empty
 				    * You are not allowed to import any module
 
-				    **Solution:** [100-weight_average.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/100-weight_average.py)
+				    **Solution:** [100-weight_average.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/100-weight_average.py)
 
 				    ```
-				    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 100-main.py
+				    $ dreamdaddybanks@ubuntu:~/0x04$ cat 100-main.py
 				    #!/usr/bin/python3
 				    weight_average = __import__('100-weight_average').weight_average
 
@@ -470,9 +470,9 @@ Write a function that computes the square value of all integers of a matrix.
 				    result = weight_average(my_list)
 				    print("Average: {:0.2f}".format(result))
 
-				    $ amonkeyprogrammer@ubuntu:~/0x04$ ./100-main.py
+				    $ dreamdaddybanks@ubuntu:~/0x04$ ./100-main.py
 				    Average: 2.80
-				    $ amonkeyprogrammer@ubuntu:~/0x04$
+				    $ dreamdaddybanks@ubuntu:~/0x04$
 				    ```
 
 				    ## Squared by using map
@@ -490,10 +490,10 @@ Write a function that computes the square value of all integers of a matrix.
 					    * You are not allowed to use `for` or `while`
 					    * Your file should be max 3 lines
 
-					    **Solution:** [101-square_matrix_map.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/101-square_matrix_map.py)
+					    **Solution:** [101-square_matrix_map.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/101-square_matrix_map.py)
 
 					    ```
-					    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 101-main.py
+					    $ dreamdaddybanks@ubuntu:~/0x04$ cat 101-main.py
 					    #!/usr/bin/python3
 					    square_matrix_map = \
 					        __import__('101-square_matrix_map').square_matrix_map
@@ -523,10 +523,10 @@ Write a function that computes the square value of all integers of a matrix.
 							    * All keys having the searched value have to be deleted
 							    * You are not allowed to import any module
 
-							    **Solution:** [102-complex_delete.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/102-complex_delete.py)
+							    **Solution:** [102-complex_delete.py](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/102-complex_delete.py)
 
 							    ```
-							    $ amonkeyprogrammer@ubuntu:~/0x04$ cat 102-main.py
+							    $ dreamdaddybanks@ubuntu:~/0x04$ cat 102-main.py
 							    #!/usr/bin/python3
 							    complex_delete = __import__('102-complex_delete').complex_delete
 							    print_sorted_dictionary = \
@@ -545,7 +545,7 @@ Write a function that computes the square value of all integers of a matrix.
 								print("--")
 								print_sorted_dictionary(new_dict)
 
-								$ amonkeyprogrammer@ubuntu:~/0x04$ ./102-main.py
+								$ dreamdaddybanks@ubuntu:~/0x04$ ./102-main.py
 								ids: [1, 2, 3]
 								track: Low
 								--
@@ -558,7 +558,7 @@ Write a function that computes the square value of all integers of a matrix.
 								--
 								ids: [1, 2, 3]
 								track: Low
-								$ amonkeyprogrammer@ubuntu:~/0x04$
+								$ dreamdaddybanks@ubuntu:~/0x04$
 								```
 
 								## CPython #1: PyBytesObject
@@ -589,13 +589,13 @@ Write a function that computes the square value of all integers of a matrix.
 									        * `PyBytes_AS_STRING`
 										    * `PyBytes_GET_SIZE`
 
-										    **Solution:** [103-python.c](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/103-python.c)
+										    **Solution:** [103-python.c](https://github.com/dreamdaddybanks/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/103-python.c)
 
 										    ```
-										    $ amonkeyprogrammer@ubuntu:~/CPython$ python3 --version
+										    $ dreamdaddybanks@ubuntu:~/CPython$ python3 --version
 										    Python 3.4.3
-										    $ amonkeyprogrammer@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.4 103-python.c
-										    $ amonkeyprogrammer@ubuntu:~/CPython$ cat 103-tests.py 
+										    $ dreamdaddybanks@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.4 103-python.c
+										    $ dreamdaddybanks@ubuntu:~/CPython$ cat 103-tests.py 
 										    import ctypes
 
 										    lib = ctypes.CDLL('./libPython.so')
@@ -627,7 +627,7 @@ Write a function that computes the square value of all integers of a matrix.
 										    l = ["Holberton"]
 										    lib.print_python_list(l)
 										    lib.print_python_bytes(l);
-										    $ amonkeyprogrammer@ubuntu:~/CPython$ python3 103-tests.py 
+										    $ dreamdaddybanks@ubuntu:~/CPython$ python3 103-tests.py 
 										    [.] bytes object info
 										      size: 5
 										        trying string: Hello
@@ -708,5 +708,5 @@ Write a function that computes the square value of all integers of a matrix.
 																    Element 0: str
 																    [.] bytes object info
 																      [ERROR] Invalid Bytes Object
-																      $ amonkeyprogrammer@ubuntu:~/CPython$
+																      $ dreamdaddybanks@ubuntu:~/CPython$
 																      ```
