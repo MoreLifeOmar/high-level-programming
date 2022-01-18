@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 class Square:
-    """ function that does literraly nothing. """
+    """ A function that does nothing. """
     pass
