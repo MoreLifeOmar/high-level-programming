@@ -11,6 +11,6 @@ class Square:
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
-    """Public instance"""
-    def area(self):
-        return self
+
+        def area(self):
+            return (size/4)**2
