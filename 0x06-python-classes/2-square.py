@@ -6,11 +6,7 @@ class Square:
     """Private Attribute"""
     def __init__(self, size=0):
         """Initialization"""
-        try:
-            size(int(input))
-        except TypeError:
-            raise Exception("size must be an integer")
-        try:
-            size >= 0
-        except ValueError:
-            raise Exception("size must be >= 0")
+        if type(size) != int:
+            raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
