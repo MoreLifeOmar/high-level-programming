@@ -5,6 +5,7 @@
 class Square:
     """Private Attribute"""
     def __init__(self, size=0):
+        self.__size = size
         """Initialization"""
         if type(size) != int:
             raise TypeError("size must be an integer")
