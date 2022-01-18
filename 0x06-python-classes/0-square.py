@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-class Sqauare():
+class Sqauare:
     pass
