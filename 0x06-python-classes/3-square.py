@@ -12,7 +12,7 @@ class Square:
         elif size < 0:
             raise ValueError("size must be >= 0")
 
-        """Public instance"""
-        def area(self):
-            self.area
-            """Initialization"""
+    def __init__(self, area):
+        """Initialization"""
+        self.area = area
+        """Public Attribute"""
