@@ -5,6 +5,7 @@
 class Square:
     """Private Attribute"""
     def __init__(self, size=0):
+        """Initialization"""
         self.__size = size
         """TypeError Exception"""
         try:
