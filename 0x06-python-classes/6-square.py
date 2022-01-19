@@ -23,6 +23,7 @@ class Square:
     @property
     def size(self):
         """getter of __size
+
         Returns:
             The size of the square
         """
@@ -31,8 +32,10 @@ class Square:
     @size.setter
     def size(self, value):
         """setter of __size
+
         Args:
             value (int): the size of a size of the square
+
         Returns:
             None
         """
@@ -43,8 +46,10 @@ class Square:
                 raise ValueError("size must be >= 0")
             else:
                 self.__size = value
-def my_print(self):
+
+    def my_print(self):
         """prints the square
+
         Returns:
             None
         """
@@ -60,6 +65,7 @@ def my_print(self):
     @property
     def position(self):
         """getter of __position
+
         Returns:
             The position of the square in 2D space
         """
@@ -68,8 +74,10 @@ def my_print(self):
     @position.setter
     def position(self, value):
         """setter of __position
+
         Args:
             value (tuple): position of the square in 2D space
+
         Returns:
             None
         """
