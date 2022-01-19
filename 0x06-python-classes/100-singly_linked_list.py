@@ -1,129 +1,67 @@
 #!/usr/bin/python3
-
-
 class Node:
-    """Represents a node in a singly linked list
-
-    Attributes:
-        __data (int): data stored inside the node
-        __next_node (Node): next node in the linked list
-    """
     def __init__(self, data, next_node=None):
-        """Initializes the node
-
-        Args:
-            data (int): data stored inside the node
-            next_node (Node): next node in the linked list
-
-        Returns:
-            None
-        """
+        """Defines a node of a singly linked list"""
         self.data = data
         self.next_node = next_node
 
     @property
     def data(self):
-        """getter of __data
-
-        Returns:
-            data stored inside the node
-        """
+        """data getter"""
         return self.__data
 
     @data.setter
     def data(self, value):
-        """setter of __data
-
-        Args:
-            value (int): data stored insite the node
-
-        Returns:
-            None
-        """
-        if type(value) is not int:
+        """data setter"""
+        if type(value) != int:
             raise TypeError("data must be an integer")
         self.__data = value
 
     @property
     def next_node(self):
-        """getter of __next_node
-
-        Returns:
-           the next node in the linked list
-        """
+        """next_node getter"""
         return self.__next_node
 
     @next_node.setter
     def next_node(self, value):
-        """setter of __next_node
-
-        Args:
-            value (Node): next node in the linked list
-
-        Returns:
-            None
-        """
+        """next_node setter"""
         if value is not None and type(value) is not Node:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
-    def __str__(self):
-        """String representation of Node instance
-
-        Returns:
-            Formatted string representing the node
-        """
-        return str(self.__data)
-
 
 class SinglyLinkedList:
-    """Represents a single linked list
-
-    Attributes:
-        __head (Node): head of the linked list
-    """
     def __init__(self):
-        """Initializes the linked list
-
-        Returns:
-            None
-        """
+        """Defines a singly linked list"""
         self.__head = None
 
     def sorted_insert(self, value):
-        """ inserts a new Node instance into the correct sorted position
-
-        Args:
-            value (int): data stored inside the new node
-
-        Returns:
-            None
-        """
         new = Node(value)
         tmp = self.__head
-        if tmp is None or tmp.data >= value:
-            if tmp:
-                new.next_node = tmp
+        add_start = False
+
+        if not self.__head:
             self.__head = new
-            return
-        while tmp.next_node is not None:
-            if tmp.next_node.data >= value:
-                break
-            tmp = tmp.next_node
-        new.next_node = tmp.next_node
-        tmp.next_node = new
+            new.next_node = None
+        else:
+            if value < self.__head.data:
+                add_start = True
+            while tmp.next_node and value > tmp.next_node.data\
+                    and not add_start:
+                tmp = tmp.next_node
+            if not add_start:
+                    new.next_node = tmp.next_node
+                    tmp.next_node = new
+            else:
+                new.next_node = tmp
+                self.__head = new
+            new.data = value
 
     def __str__(self):
-        """String representation of SinglyLinkedList instance
+        s = ""
+        current = self.__head
 
-        Returns:
-            Formatted string representing the linked list
-        """
-        string = ""
-        tmp = self.__head
-        while tmp is not None:
-            string += str(tmp)
-            if tmp.next_node is not None:
-                string += "\n"
-            tmp = tmp.next_node
-        return string
+        while current:
+            s += str(current.data) + '\n'
+            current = current.next_node
+        return s[: -1]
