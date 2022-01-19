@@ -4,21 +4,18 @@
 
 class Square:
     """Private Attribute"""
-    def __init__(self, size=0):
-        self.__size = size
+    def __init__(self, size=0, position=(0, 0)):
         """Initialization"""
-        if type(size) != int:
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
+        self.size = size
+        self.position = position
 
     def area(self):
+        """calculates the square's area
+
+        Returns:
+            The area of the square
         """
-            set square area
-            Return:
-            square area (int)
-        """
-        return self.__size ** 2
+        return (self.__size) ** 2
 
     @property
     def size(self):
@@ -34,7 +31,7 @@ class Square:
         """setter of __size
 
         Args:
-            value (int): the size of a size of the square
+            value (int): size of a side of the square
 
         Returns:
             None
