@@ -56,4 +56,6 @@ if __name__ == "__main__":
                     print(a)
                 else:
                     nqueens(x + 1)
+                    
+                    
     nqueens(0)
