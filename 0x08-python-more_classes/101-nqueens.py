@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for nqueens N
+Module for N queens.
 """
 
 
@@ -24,14 +24,14 @@ if __name__ == "__main__":
         a.append([i, None])
 
     def already_exists(y):
-        """check if queen does not exist in y value"""
+        """check that a queen does not already exist in that y value"""
         for x in range(n):
             if y == a[x][1]:
                 return True
         return False
 
     def reject(x, y):
-        """determines to reject the solution or not"""
+        """determines whether or not to reject the solution"""
         if (already_exists(y)):
             return False
         i = 0
@@ -52,10 +52,10 @@ if __name__ == "__main__":
             clear_a(x)
             if reject(x, y):
                 a[x][1] = y
-                if (x == n - 1):
+                if (x == n - 1):  # accepts the solution
                     print(a)
                 else:
-                    nqueens(x + 1)
-                    
-                    
+                    nqueens(x + 1)  # moves on to next x value to continue
+
+    # start the recursive process at x = 0
     nqueens(0)
