@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def add_integer(a, b=98):
+def add_integer(a, b = 98):
     if type(a) in [int, float]:
         try:
             a = int(a)
