@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-"""A module to add two numbers"""
+"""A module to add two numbers
+
+This module performs the addition operation between two numbers,
+these numbers can be integers or floats.
+
+"""
 
 
 def add_integer(a, b=98):
