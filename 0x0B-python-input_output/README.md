@@ -89,5 +89,3 @@ What you should learn from this project:
 
 ### [17. Hack the VM](./read_write_heap.py)
 * Write a script that finds a string in the heap of a running process, and replaces it.
-
----
