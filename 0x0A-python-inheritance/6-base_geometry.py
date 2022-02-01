@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """
-Contains the is_kind_of_class function
+Contains the class BaseGeometry
 """
 
 
-def is_kind_of_class(obj, a_class):
-    """True if obj is an instance or inherited from a_class, else False"""
-    return (isinstance(obj, a_class))
+class BaseGeometry:
+    """A class with public attribute area"""
+    def area(self):
+        """raises an exception when called"""
+        raise Exception("area() is not implemented")
