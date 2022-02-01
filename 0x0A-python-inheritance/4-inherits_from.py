@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-def inherits_from(obj, a_class):
-    if isinstance(obj, a_class) and \
-       issubclass(a_class, obj.__class__) is False:
-        return True
+"""
+Contains the is_kind_of_class function
+"""
 
-    return False
+
+def is_kind_of_class(obj, a_class):
+    """True if obj is an instance or inherited from a_class, else False"""
+    return (isinstance(obj, a_class))
